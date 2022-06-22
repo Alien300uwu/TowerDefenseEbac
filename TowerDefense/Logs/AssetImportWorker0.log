@@ -15,7 +15,7 @@ C:/Users/pc/Desktop/Repositorios/TowerDefenseEbac/TowerDefense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53539
+57324
 Successfully changed project path to: C:/Users/pc/Desktop/Repositorios/TowerDefenseEbac/TowerDefense
 C:/Users/pc/Desktop/Repositorios/TowerDefenseEbac/TowerDefense
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/pc/Desktop/Repositorios/TowerDefenseEbac/TowerDefense
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 134.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 144.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011108 seconds.
+Registered in 0.013322 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 136.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 143.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.076 seconds
+- Completed reload, in  1.083 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1077ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
+			CreateAndSetChildDomain (2ms)
 		EndReloadAssembly (747ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (434ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (137ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008881 seconds.
+Registered in 0.019580 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\pc\Desktop\Repositorios\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\pc\Desktop\Repositorios\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.840 seconds
+- Completed reload, in  1.891 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1841ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1893ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1478ms)
-			LoadAssemblies (196ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1497ms)
+			LoadAssemblies (201ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (538ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (623ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (692ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (391ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
 Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 28 unused Assets / (148.1 KB). Loaded Objects now: 4194.
-Memory consumption went from 133.3 MB to 133.2 MB.
-Total: 4.853700 ms (FindLiveObjects: 0.444000 ms CreateObjectMapping: 0.480800 ms MarkObjects: 3.748100 ms  DeleteObjects: 0.178900 ms)
+Memory consumption went from 133.4 MB to 133.2 MB.
+Total: 6.295000 ms (FindLiveObjects: 0.467400 ms CreateObjectMapping: 0.494700 ms MarkObjects: 4.899700 ms  DeleteObjects: 0.431900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,451 +159,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 258779.605363 seconds.
-  path: Assets/_Prefabs/Torre_3.prefab
-  artifactKey: Guid(8a3dfc58955bcb045a8eb0aa3b79a760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/Torre_3.prefab using Guid(8a3dfc58955bcb045a8eb0aa3b79a760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209fd6f954cd5854a261ebe681519601') in 0.323617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 758.963835 seconds.
-  path: Assets/_Prefabs/Plataforma.prefab
-  artifactKey: Guid(b56e621ebae937c47ae26d1b7287a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/Plataforma.prefab using Guid(b56e621ebae937c47ae26d1b7287a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bbe87dc7b77a095a4b0ea42ee2e598') in 0.019978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3117.087022 seconds.
-  path: Assets/Vampire A Lusth.fbx
-  artifactKey: Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vampire A Lusth.fbx using Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5363d289ab0caf51121729b3881a785') in 1.001617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/knight_d_pelegrini.fbx
-  artifactKey: Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/knight_d_pelegrini.fbx using Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9910ba0d3985a273f9a5f57ada841b') in 0.118566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 117.029064 seconds.
-  path: Assets/_Models/Paladin WProp J Nordstrom.fbx
-  artifactKey: Guid(b0f81214734b63d42a4672b126c8558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Paladin WProp J Nordstrom.fbx using Guid(b0f81214734b63d42a4672b126c8558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cc5acfdad91470d2258722c256b7a0') in 0.130180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.801497 seconds.
-  path: Assets/_Textures/Enemigo_1
-  artifactKey: Guid(a0ea2fa0fcec4de4d8988d03874cd72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Textures/Enemigo_1 using Guid(a0ea2fa0fcec4de4d8988d03874cd72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4554e5a488a2be4140a0394ead7a3a2c') in 0.005094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.018386 seconds.
-  path: Assets/_Textures/Enemigo_1 1
-  artifactKey: Guid(32bccbce28119ee42b71177ae8d7b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Textures/Enemigo_1 1 using Guid(32bccbce28119ee42b71177ae8d7b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba279fce38f2b77db6fbced6125643a') in 0.004774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.237588 seconds.
-  path: Assets/_Textures/Enemigo_1 2
-  artifactKey: Guid(c033c6443ec7840408ab18e376887eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Textures/Enemigo_1 2 using Guid(c033c6443ec7840408ab18e376887eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd6548ded099bf46b90f47eda70100d') in 0.003145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.776217 seconds.
-  path: Assets/_Textures/Enemigo_2
-  artifactKey: Guid(32bccbce28119ee42b71177ae8d7b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Textures/Enemigo_2 using Guid(32bccbce28119ee42b71177ae8d7b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5176f9dbe973051a1694129a92a12024') in 0.002011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.965904 seconds.
-  path: Assets/_Textures/Enemigo_3
-  artifactKey: Guid(c033c6443ec7840408ab18e376887eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Textures/Enemigo_3 using Guid(c033c6443ec7840408ab18e376887eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ba371ab8a28304e049cbd12b9ea146') in 0.002003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.368905 seconds.
-  path: Assets/_Materials/Enemigo
-  artifactKey: Guid(5175d716e2759bf4b9a7dda58baea273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/Enemigo using Guid(5175d716e2759bf4b9a7dda58baea273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0abcc46ab67aa3597195dd68baea28') in 0.004368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.668439 seconds.
-  path: Assets/_Materials/Enemigo 1
-  artifactKey: Guid(038789e854984874a8c624d092f421bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/Enemigo 1 using Guid(038789e854984874a8c624d092f421bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe593f6c652ca70a7772c16f7f3eb70a') in 0.002378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.502220 seconds.
-  path: Assets/_Materials/Enemigo 2
-  artifactKey: Guid(402e1e00b32a52c4fbce357f5bc1a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/Enemigo 2 using Guid(402e1e00b32a52c4fbce357f5bc1a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b037b43670c8e7536ce1dd4359cf7b') in 0.003356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.127076 seconds.
-  path: Assets/_Materials/Enemigo 3
-  artifactKey: Guid(4ed279821c3554a48a11da281b249a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/Enemigo 3 using Guid(4ed279821c3554a48a11da281b249a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c881dc0505901315b7b5d31fa98e3600') in 0.003439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.256624 seconds.
-  path: Assets/_Models/Paladin WProp J Nordstrom.fbx
-  artifactKey: Guid(b0f81214734b63d42a4672b126c8558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Paladin WProp J Nordstrom.fbx using Guid(b0f81214734b63d42a4672b126c8558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8413d03e1d852e7bfbe083b56dcf23') in 0.526080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.127371 seconds.
-  path: Assets/_Models/Paladin WProp J Nordstrom.fbx
-  artifactKey: Guid(b0f81214734b63d42a4672b126c8558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Paladin WProp J Nordstrom.fbx using Guid(b0f81214734b63d42a4672b126c8558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252fe29c5f8775dc9df5270ab9bd1990') in 0.137435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.284694 seconds.
-  path: Assets/_Models/Paladin WProp J Nordstrom.fbx
-  artifactKey: Guid(b0f81214734b63d42a4672b126c8558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Paladin WProp J Nordstrom.fbx using Guid(b0f81214734b63d42a4672b126c8558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d16e3da7cdb9ff59922430680494a1') in 0.135033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 70.452275 seconds.
-  path: Assets/_Models/knight_d_pelegrini.fbx
-  artifactKey: Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/knight_d_pelegrini.fbx using Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c193350bedf73d64854fa82873f551aa') in 0.091473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.313612 seconds.
-  path: Assets/_Models/Vampire A Lusth.fbx
-  artifactKey: Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Vampire A Lusth.fbx using Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142645e2c9fa874e7427c3a7ba8a9316') in 0.063764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.443068 seconds.
-  path: Assets/_Models/knight_d_pelegrini.fbx
-  artifactKey: Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/knight_d_pelegrini.fbx using Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee5dd38ec0486c563f56ca310826cf') in 0.118510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.866629 seconds.
-  path: Assets/_Models/knight_d_pelegrini.fbx
-  artifactKey: Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/knight_d_pelegrini.fbx using Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012987bcd03ea28d9c2b3bae9ebe102d') in 0.118758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.601033 seconds.
-  path: Assets/_Models/knight_d_pelegrini.fbx
-  artifactKey: Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/knight_d_pelegrini.fbx using Guid(064e99217dbb27241b82b2ca97f80b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b86c4505b8e9ed3d05967d7076852f') in 0.104584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.772658 seconds.
-  path: Assets/_Models/Vampire A Lusth.fbx
-  artifactKey: Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Vampire A Lusth.fbx using Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c918d9bd8e068c0949e60a7d23118a') in 0.248751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.635237 seconds.
-  path: Assets/_Models/Vampire A Lusth.fbx
-  artifactKey: Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Vampire A Lusth.fbx using Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36eca3274ee22707df51d0e18fda8d97') in 0.092094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.664957 seconds.
-  path: Assets/_Models/Vampire A Lusth.fbx
-  artifactKey: Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Vampire A Lusth.fbx using Guid(e02675e35de4cf849825c5c028d73c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78119f73b5bbaf92c239e4e40a5d77b') in 0.097105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 334.685153 seconds.
-  path: Assets/_Models/maw_j_laygo.fbx
-  artifactKey: Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/maw_j_laygo.fbx using Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53f6aeb79ff843c4aa0f2ca52ff38c8') in 0.054329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.488401 seconds.
-  path: Assets/_Models/maw_j_laygo.fbx
-  artifactKey: Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/maw_j_laygo.fbx using Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2fcd4113a0ad036d262714ff95c90c') in 0.059360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 164.195837 seconds.
-  path: Assets/_Materials/Enemigo 4
-  artifactKey: Guid(b6d75d5eb8f82b140bf87ce606566b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/Enemigo 4 using Guid(b6d75d5eb8f82b140bf87ce606566b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a590405f7048f1354febf8714f3233a') in 0.002730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.425895 seconds.
-  path: Assets/_Textures/Enemigo_4
-  artifactKey: Guid(7e448c54aa02e76499854ba78c3c42e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Textures/Enemigo_4 using Guid(7e448c54aa02e76499854ba78c3c42e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be44386fa9ff28a00adb3d2a290f2a6') in 0.002573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.281067 seconds.
-  path: Assets/_Models/maw_j_laygo.fbx
-  artifactKey: Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/maw_j_laygo.fbx using Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c7922725cc6943767b6cf96b1f3cb1') in 0.069835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.996879 seconds.
-  path: Assets/_Models/maw_j_laygo.fbx
-  artifactKey: Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/maw_j_laygo.fbx using Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578d0ccee43a7f60637317b0adb93579') in 0.074023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.721924 seconds.
-  path: Assets/_Models/maw_j_laygo.fbx
-  artifactKey: Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/maw_j_laygo.fbx using Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7a1b8ed0c520c3c126b2a055b1b92b') in 0.055255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 344.554475 seconds.
-  path: Assets/_Animaciones
-  artifactKey: Guid(fa0175408c32ab246a2e65095931018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animaciones using Guid(fa0175408c32ab246a2e65095931018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab64f2dc71a9cdc5ab6ae8cd52af6fdf') in 0.002342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 537.836948 seconds.
-  path: Assets/_Animations/draw sword 1.fbx
-  artifactKey: Guid(da96c13cf52a7b74bae89598d418275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/draw sword 1.fbx using Guid(da96c13cf52a7b74bae89598d418275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc015ed11a58882fe8e63373e7bf957') in 0.018322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.364469 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(d094ee030f47c3a498adbdc540b4f605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(d094ee030f47c3a498adbdc540b4f605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ad753713ee4eb4e46d417c24bc97d2') in 0.015172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.387128 seconds.
-  path: Assets/_Animations/Draw Sword 1.anim
-  artifactKey: Guid(d094ee030f47c3a498adbdc540b4f605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Draw Sword 1.anim using Guid(d094ee030f47c3a498adbdc540b4f605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cbd134be02bbbbad07f98396ced651') in 0.009524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.256662 seconds.
-  path: Assets/_Animations/sheath sword 1.fbx
-  artifactKey: Guid(acd610263d4aa33458e45de17834d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sheath sword 1.fbx using Guid(acd610263d4aa33458e45de17834d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acd0f3da6bc0a002ec22e4020e3aa56') in 0.010835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.259945 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(e6a38d6a3369543459fe99f2c1050c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(e6a38d6a3369543459fe99f2c1050c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdf04e78b40fc21238de442d2c4761e') in 0.009117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.424907 seconds.
-  path: Assets/_Animations/mixamo.com 1.anim
-  artifactKey: Guid(23c2f922ab572624f967d1be08f5d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com 1.anim using Guid(23c2f922ab572624f967d1be08f5d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305f25f91866f87a93cc81a657811086') in 0.011176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.631857 seconds.
-  path: Assets/_Animations/Shealth Sword 1.anim
-  artifactKey: Guid(e6a38d6a3369543459fe99f2c1050c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Shealth Sword 1.anim using Guid(e6a38d6a3369543459fe99f2c1050c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15989e810469aa69ee85fa251cd0d9cc') in 0.010092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.370077 seconds.
-  path: Assets/_Animations/sword and shield attack (2).fbx
-  artifactKey: Guid(b22bd0f003f55c94c81651d7c269b5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield attack (2).fbx using Guid(b22bd0f003f55c94c81651d7c269b5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa5cda9824bfd315cc1c66b16c9fa85') in 0.013456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.964213 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(f29a9751ca55fd843bf0f2b4c33e03d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(f29a9751ca55fd843bf0f2b4c33e03d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3154207841c9579f5c2a5a172ada4d5') in 0.015066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.200902 seconds.
-  path: Assets/_Animations/Sword And Shield Attack.anim
-  artifactKey: Guid(f29a9751ca55fd843bf0f2b4c33e03d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Sword And Shield Attack.anim using Guid(f29a9751ca55fd843bf0f2b4c33e03d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6679d570cacb31c1a2e8aed9d954839f') in 0.013959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.133143 seconds.
-  path: Assets/_Animations/sword and shield attack (3).fbx
-  artifactKey: Guid(3ba23ccdd7557e0459bf862caaef456f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield attack (3).fbx using Guid(3ba23ccdd7557e0459bf862caaef456f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a7a5e5d4138d7dfb072015161a1614') in 0.012490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.350821 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(d6321d817482a974f92be3c8659b48a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(d6321d817482a974f92be3c8659b48a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3913c1de6b9a018da2a33b520384ebfc') in 0.016948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.053002 seconds.
-  path: Assets/_Animations/Sword And Shield Attack 2.anim
-  artifactKey: Guid(d6321d817482a974f92be3c8659b48a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Sword And Shield Attack 2.anim using Guid(d6321d817482a974f92be3c8659b48a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1f0645a1ba27dfde5d701e2fcb7b87') in 0.015225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.557650 seconds.
-  path: Assets/_Animations/sword and shield attack (4).fbx
-  artifactKey: Guid(15e8079022a5a1441acaa53ebbdc01a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield attack (4).fbx using Guid(15e8079022a5a1441acaa53ebbdc01a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c826d10aa995530fc581e27b77f4ab2') in 0.017249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.605912 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(20291db6153105646853587bffb2c96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(20291db6153105646853587bffb2c96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e817441aed89cf7d2473b8f49e4dfcd') in 0.009922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.913564 seconds.
-  path: Assets/_Animations/Sword And Shield Attack 3.anim
-  artifactKey: Guid(20291db6153105646853587bffb2c96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Sword And Shield Attack 3.anim using Guid(20291db6153105646853587bffb2c96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4601bfb58d63a7ae104f7c5ca0a24e') in 0.010480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.294495 seconds.
-  path: Assets/_Animations/sword and shield attack.fbx
-  artifactKey: Guid(44291b7e9b46b3745b6ead82e8b72fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield attack.fbx using Guid(44291b7e9b46b3745b6ead82e8b72fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd841a12e2eaa3abc266fddf6bb10701e') in 0.016395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.009667 seconds.
-  path: Assets/_Animations/sword and shield block (2).fbx
-  artifactKey: Guid(4477bb315e2b1324b8eacee25521a9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield block (2).fbx using Guid(4477bb315e2b1324b8eacee25521a9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843e03805c96c7c2be0447efc03935dc') in 0.011642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.889624 seconds.
-  path: Assets/_Animations/sword and shield block idle.fbx
-  artifactKey: Guid(5b0a79b5a221edb439b43b83eb805b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield block idle.fbx using Guid(5b0a79b5a221edb439b43b83eb805b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b0aa6b4b3f98fd01a3a1e63fb984be') in 0.010848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.028356 seconds.
-  path: Assets/_Animations/sword and shield block.fbx
-  artifactKey: Guid(310c28e16c0f08741b7018dab22933c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield block.fbx using Guid(310c28e16c0f08741b7018dab22933c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12388eb88b697762cc871c859244a3f6') in 0.012340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.608859 seconds.
-  path: Assets/_Animations/sword and shield death.fbx
-  artifactKey: Guid(3276c9c68b4f89342a54616c1492aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield death.fbx using Guid(3276c9c68b4f89342a54616c1492aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfe9d03962d2457ff5edf3f13cf60a6') in 0.011102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.248484 seconds.
-  path: Assets/_Animations/sword and shield idle.fbx
-  artifactKey: Guid(d419ea7887b3f5342885b83542905972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield idle.fbx using Guid(d419ea7887b3f5342885b83542905972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37337d8a3979fddabb40ccd3cd36571') in 0.009736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.228928 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(a8a58de1485ccb24cb145a3ae2bbbe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(a8a58de1485ccb24cb145a3ae2bbbe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80debb3ef91a3a802b225cd96b5a9ba') in 0.012863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.720409 seconds.
-  path: Assets/_Animations/Sword and Shield death.anim
-  artifactKey: Guid(a8a58de1485ccb24cb145a3ae2bbbe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Sword and Shield death.anim using Guid(a8a58de1485ccb24cb145a3ae2bbbe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f73ba964513059a77b2f607609fce5') in 0.013346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.528182 seconds.
-  path: Assets/_Animations/sword and shield run (2).fbx
-  artifactKey: Guid(0ea6282fa58026a4aa561e14b1a22da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield run (2).fbx using Guid(0ea6282fa58026a4aa561e14b1a22da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e744f372c16d5c08eede545d7946a6') in 0.013511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.381833 seconds.
-  path: Assets/_Animations/sword and shield run.fbx
-  artifactKey: Guid(8bb71a0e84cdfe641abfcc3952901bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield run.fbx using Guid(8bb71a0e84cdfe641abfcc3952901bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95f9ee245fcdea11b159db84715e63f') in 0.015503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.801718 seconds.
-  path: Assets/_Animations/sword and shield strafe (2).fbx
-  artifactKey: Guid(bf5232a175a076c41a4a90748024fc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield strafe (2).fbx using Guid(bf5232a175a076c41a4a90748024fc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078408b14c58f567e87fa04e3b93736e') in 0.018929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.594528 seconds.
-  path: Assets/_Animations/sword and shield strafe.fbx
-  artifactKey: Guid(3980b5266128fe34b88bfc05f9827ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield strafe.fbx using Guid(3980b5266128fe34b88bfc05f9827ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e98e9db853195ed5680ee4cd48736f') in 0.013144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.600287 seconds.
-  path: Assets/_Animations/sword and shield turn (2).fbx
-  artifactKey: Guid(23ffc2664ac32c1478b9199875c01831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield turn (2).fbx using Guid(23ffc2664ac32c1478b9199875c01831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba9bdb50b22b7ca7fbaec1d05583671') in 0.014966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.260835 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(d4a33243e2932c44cb020bae9534fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(d4a33243e2932c44cb020bae9534fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b231328f74b8afcc6becece6beaa7acf') in 0.010072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.059647 seconds.
-  path: Assets/_Animations/Sword And Shield run.anim
-  artifactKey: Guid(d4a33243e2932c44cb020bae9534fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Sword And Shield run.anim using Guid(d4a33243e2932c44cb020bae9534fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e93d130f2bb8d9e04610a3cf1f8328a') in 0.010615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.551247 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(a33c13bec66c8934994b7b5434da30b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(a33c13bec66c8934994b7b5434da30b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58343384e4434cbb299377ac7dde518f') in 0.009963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.033341 seconds.
-  path: Assets/_Animations/Sword And shield run 2.anim
-  artifactKey: Guid(a33c13bec66c8934994b7b5434da30b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Sword And shield run 2.anim using Guid(a33c13bec66c8934994b7b5434da30b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63c72c77149e1004230b2fbd6c18e2a') in 0.009643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.700648 seconds.
-  path: Assets/_Animations/sword and shield turn.fbx
-  artifactKey: Guid(4eb940d5c011ec342bc43045b1ff5dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/sword and shield turn.fbx using Guid(4eb940d5c011ec342bc43045b1ff5dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4839c0ced8196a05d8f9e865172176') in 0.012318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.119641 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(e4baec3bea3bc7247bee2f2270c05b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(e4baec3bea3bc7247bee2f2270c05b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121745cc0f74a9f2cf1e794992667f32') in 0.008841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.458231 seconds.
-  path: Assets/_Animations/Sword and shield turn.anim
-  artifactKey: Guid(e4baec3bea3bc7247bee2f2270c05b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Sword and shield turn.anim using Guid(e4baec3bea3bc7247bee2f2270c05b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1765a6d9523508efbd887a447fd55f') in 0.009278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.903605 seconds.
-  path: Assets/_Animations/mixamo.com.anim
-  artifactKey: Guid(279bbb6e64baea84d9b328acd774fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/mixamo.com.anim using Guid(279bbb6e64baea84d9b328acd774fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8a4a02a3ce332887b8a57f33bb3288') in 0.007763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.620223 seconds.
-  path: Assets/_Animations/Sword and shield turn 2.anim
-  artifactKey: Guid(279bbb6e64baea84d9b328acd774fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/Sword and shield turn 2.anim using Guid(279bbb6e64baea84d9b328acd774fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3799ff162ee43d7a953a8212dc705154') in 0.008157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.778912 seconds.
-  path: Assets/_Animations
-  artifactKey: Guid(fa0175408c32ab246a2e65095931018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations using Guid(fa0175408c32ab246a2e65095931018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4938725dc41f0b9528f7e1a247656f') in 0.002727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.936845 seconds.
-  path: Assets/_Animations/New Animator Controller.controller
-  artifactKey: Guid(24d830669f1b6d94d9df9f0cacc73a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/New Animator Controller.controller using Guid(24d830669f1b6d94d9df9f0cacc73a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0726640ed31dc27115295ca7cf50ca') in 0.061011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.928064 seconds.
-  path: Assets/_Animations/EnemyControler.controller
-  artifactKey: Guid(24d830669f1b6d94d9df9f0cacc73a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/EnemyControler.controller using Guid(24d830669f1b6d94d9df9f0cacc73a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6815084e5a32d81154d88bbe456316a8') in 0.006261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.032535 seconds.
+  Time since last request: 429660.267212 seconds.
   path: Assets/_Animations/EnemyController.controller
   artifactKey: Guid(24d830669f1b6d94d9df9f0cacc73a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Animations/EnemyController.controller using Guid(24d830669f1b6d94d9df9f0cacc73a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bd9cea07feb06c0b1116fe0f707c30') in 0.006755 seconds 
+Start importing Assets/_Animations/EnemyController.controller using Guid(24d830669f1b6d94d9df9f0cacc73a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d588dff2a301d77c02684c6d449608b') in 0.128926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3858.587600 seconds.
+  path: Assets/_Prefabs/Balista.prefab
+  artifactKey: Guid(384fb540fa26b6e4982abc47e4e380a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Balista.prefab using Guid(384fb540fa26b6e4982abc47e4e380a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6113a4728edb5b90134166c751435265') in 0.839756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2493.396929 seconds.
+  path: Assets/_Models/maw_j_laygo.fbx
+  artifactKey: Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/maw_j_laygo.fbx using Guid(6f09af5bbfa5fb140affed1a5855dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eff671a23b8693ed57653e3d4240607') in 0.261559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1094.884778 seconds.
+  path: Assets/_Prefabs/Campamentos.prefab
+  artifactKey: Guid(d797651fbcbf8b84f9d046858a419bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Campamentos.prefab using Guid(d797651fbcbf8b84f9d046858a419bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1520bb0cc6e50435cc533e285292d4cc') in 0.179806 seconds 
