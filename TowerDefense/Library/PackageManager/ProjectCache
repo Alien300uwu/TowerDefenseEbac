@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637911639010733709
-    m_Hash: 1200941838
+      ticks: 637919563670816433
+    m_Hash: 384401989
   m_LockFileStatus:
     m_FilePath: C:/Users/pc/Desktop/Repositorios/TowerDefenseEbac/TowerDefense/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637911639010803509
-    m_Hash: 25803687
+      ticks: 637919563670896198
+    m_Hash: 3165597391
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -92,6 +92,8 @@ m_ResolvedPackages:
     - 1.15.16
     - 1.15.17
     - 1.15.18
+    - 1.17.0
+    - 1.17.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -106,6 +108,8 @@ m_ResolvedPackages:
     - 1.15.16
     - 1.15.17
     - 1.15.18
+    - 1.17.0
+    - 1.17.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -207,7 +211,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.15
+    version: 2.0.16
   - name: com.unity.test-framework
     version: 1.1.31
   - name: com.unity.ext.nunit
@@ -217,7 +221,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.14
+    version: 3.0.15
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -249,12 +253,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.14
+- packageId: com.unity.ide.rider@3.0.15
   testable: 0
   isDirectDependency: 1
-  version: 3.0.14
+  version: 3.0.15
   source: 1
-  resolvedPath: C:\Users\pc\Desktop\Repositorios\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.ide.rider@3.0.14
+  resolvedPath: C:\Users\pc\Desktop\Repositorios\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.ide.rider@3.0.15
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -301,10 +305,12 @@ m_ResolvedPackages:
     - 3.0.12
     - 3.0.13
     - 3.0.14
+    - 3.0.15
     compatible:
     - 3.0.13
     - 3.0.14
-    verified: 3.0.14
+    - 3.0.15
+    verified: 3.0.15
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -321,23 +327,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637861245770000000
+  datePublishedTicks: 637914298700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: e6bfc84a08a0876a2c20ec2ee0883b5ece331dfd
+    revision: b61ff0378932fdf03b5891e09c91728337de674c
     path: 
   unityLifecycle:
     version: 3.0.13
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.15
+- packageId: com.unity.ide.visualstudio@2.0.16
   testable: 0
   isDirectDependency: 1
-  version: 2.0.15
+  version: 2.0.16
   source: 1
-  resolvedPath: C:\Users\pc\Desktop\Repositorios\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
+  resolvedPath: C:\Users\pc\Desktop\Repositorios\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -372,10 +378,12 @@ m_ResolvedPackages:
     - 2.0.12
     - 2.0.14
     - 2.0.15
+    - 2.0.16
     compatible:
     - 2.0.14
     - 2.0.15
-    verified: 2.0.15
+    - 2.0.16
+    verified: 2.0.16
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -398,13 +406,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637841884840000000
+  datePublishedTicks: 637914298680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: ca1ece42f5a2c5484ba15a15bb975ccc1f6a1a3c
+    revision: c01855ef6461b821ab0226135e96a4ee86de96be
     path: 
   unityLifecycle:
     version: 2.0.14
