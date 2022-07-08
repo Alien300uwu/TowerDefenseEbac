@@ -4,26 +4,26 @@ using UnityEngine;
 using UnityEngine.AI;
 
 
-public class Enemy : MonoBehaviour
+public class Enemigo : MonoBehaviour
 {
-    public GameObject objetivo;
+    public GameObject Objetivo;
     public int vida = 100;
 
     public Animator Anim;
 
     private void OnEnable()
     {
-        objetivo = GameObject.Find("Objetivo");
+        Objetivo = GameObject.Find("Objetivo");
     }
     private void OnDisable()
     {
-        
+
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<NavMeshAgent>().SetDestination(objetivo.transform.position);
+        GetComponent<NavMeshAgent>().SetDestination(Objetivo.transform.position);
         Anim = GetComponent<Animator>();
         Anim.SetBool("IsMoving", true);
     }
@@ -40,12 +40,13 @@ public class Enemy : MonoBehaviour
         {
             Anim.SetBool("IsMoving", false);
             Anim.SetTrigger("OnObjectiveReached");
+            Danar();
         }
     }
 
     public void Danar()
     {
-        objetivo?.GetComponent<Objetivo>().RecibirDano(5);
+        Objetivo?.GetComponent<Objetivo>().RecibirDano(5);
     }
 
     public void RecibirDano(int dano = 5)

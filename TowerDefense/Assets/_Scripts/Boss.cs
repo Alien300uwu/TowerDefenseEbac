@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 public class Boss : MonoBehaviour
 {
-    public GameObject objetivo;
+    public GameObject Objetivo;
     public int vida = 100;
 
     public Animator Anim;
@@ -12,17 +12,18 @@ public class Boss : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<NavMeshAgent>().SetDestination(objetivo.transform.position);
+        GetComponent<NavMeshAgent>().SetDestination(Objetivo.transform.position);
         Anim = GetComponent<Animator>();
         Anim.SetBool("IsMoving",true);
     }
 
-
-
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        Objetivo = GameObject.Find("Objetivo");
+    }
+    private void OnDisable()
+    {
+
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -31,12 +32,13 @@ public class Boss : MonoBehaviour
         {
             Anim.SetBool("IsMoving", false);
             Anim.SetTrigger("OnObjectiveReached");
+            Danar();
         }
     }
 
     public void Danar()
     {
-        objetivo?.GetComponent<Objetivo>().RecibirDano(40);
+        Objetivo?.GetComponent<Objetivo>().RecibirDano(40);
     }
 
     public void RecibirDano(int dano = 5)
