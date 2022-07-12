@@ -360,6 +360,9 @@
 "Assets/_Scripts/AdministradorUI.cs"
 "Assets/_Scripts/Boss.cs"
 "Assets/_Scripts/Enemigo.cs"
+"Assets/_Scripts/EnemigoBase.cs"
+"Assets/_Scripts/Interfaces/IAtacable.cs"
+"Assets/_Scripts/Interfaces/IAtacante.cs"
 "Assets/_Scripts/Objetivo.cs"
 "Assets/_Scripts/SpawnerEnemigos.cs"
 -langversion:9.0

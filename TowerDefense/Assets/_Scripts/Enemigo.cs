@@ -4,53 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 
-public class Enemigo : MonoBehaviour
+public class Enemigo : EnemigoBase
 {
-    public GameObject Objetivo;
-    public int vida = 100;
-
-    public Animator Anim;
-
-    private void OnEnable()
-    {
-        Objetivo = GameObject.Find("Objetivo");
-    }
-    private void OnDisable()
-    {
-
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        GetComponent<NavMeshAgent>().SetDestination(Objetivo.transform.position);
-        Anim = GetComponent<Animator>();
-        Anim.SetBool("IsMoving", true);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Objetivo")
-        {
-            Anim.SetBool("IsMoving", false);
-            Anim.SetTrigger("OnObjectiveReached");
-            Danar();
-        }
-    }
-
-    public void Danar()
-    {
-        Objetivo?.GetComponent<Objetivo>().RecibirDano(5);
-    }
-
-    public void RecibirDano(int dano = 5)
-    {
-        vida -= dano;
-    }
+   
 }
