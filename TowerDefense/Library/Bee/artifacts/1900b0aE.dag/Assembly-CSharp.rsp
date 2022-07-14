@@ -358,6 +358,7 @@
 "Assets/_Scripts/AdministradorToques.cs"
 "Assets/_Scripts/AdministradorTorres.cs"
 "Assets/_Scripts/AdministradorUI.cs"
+"Assets/_Scripts/AdminJuego.cs"
 "Assets/_Scripts/Boss.cs"
 "Assets/_Scripts/Enemigo.cs"
 "Assets/_Scripts/EnemigoBase.cs"

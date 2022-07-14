@@ -4,5 +4,9 @@ using UnityEngine;
 using UnityEngine.AI;
 public class Boss : EnemigoBase
 {
-
+    public override void OnDestroy()
+    {
+        base.OnDestroy();
+        referenciaAdminJuego.enemigosJefeDerrotados++;
+    }
 }

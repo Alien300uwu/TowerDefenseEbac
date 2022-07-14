@@ -6,5 +6,9 @@ using UnityEngine.AI;
 
 public class Enemigo : EnemigoBase
 {
-   
+    public override void OnDestroy()
+    {
+        base.OnDestroy();
+        referenciaAdminJuego.enemigosBaseDerrotados++;
+    }
 }
