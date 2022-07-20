@@ -71,8 +71,7 @@ public class SpawnerEnemigos : MonoBehaviour
         var enemigosTemporal = Instantiate<GameObject>(prefabsEnemigos[indiceAleatorio], transform.position, Quaternion.identity);
         EnemigosGenerados.Add(enemigosTemporal);
 
-        enemigosDuranteEstaOleada--;
-        enemigosDuranteEstaOleada--;
+        enemigosDuranteEstaOleada--; 
         if(enemigosDuranteEstaOleada < 0)
         {
             oleada++;

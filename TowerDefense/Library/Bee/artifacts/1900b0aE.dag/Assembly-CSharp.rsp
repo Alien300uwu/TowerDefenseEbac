@@ -359,6 +359,7 @@
 "Assets/_Scripts/AdministradorTorres.cs"
 "Assets/_Scripts/AdministradorUI.cs"
 "Assets/_Scripts/AdminJuego.cs"
+"Assets/_Scripts/Bala.cs"
 "Assets/_Scripts/Boss.cs"
 "Assets/_Scripts/Enemigo.cs"
 "Assets/_Scripts/EnemigoBase.cs"
@@ -366,6 +367,7 @@
 "Assets/_Scripts/Interfaces/IAtacante.cs"
 "Assets/_Scripts/Objetivo.cs"
 "Assets/_Scripts/SpawnerEnemigos.cs"
+"Assets/_Scripts/TorreBase.cs"
 -langversion:9.0
 
 /deterministic

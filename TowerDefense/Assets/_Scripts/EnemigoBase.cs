@@ -43,6 +43,7 @@ public class EnemigoBase : MonoBehaviour, IAtacante, IAtacable
             GetComponent<NavMeshAgent>().SetDestination(transform.position);
             Destroy(gameObject, 2);
         }
+        
     }
 
     public virtual void OnDestroy()

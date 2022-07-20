@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637925471629666909
-    m_Hash: 2414581863
+      ticks: 637938632780077683
+    m_Hash: 2716454220
   m_LockFileStatus:
     m_FilePath: C:/Users/pc/Desktop/TowerDefenseEbac/TowerDefense/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637925471629856396
-    m_Hash: 4173016838
+      ticks: 637938632780137513
+    m_Hash: 1203748863
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -94,6 +94,7 @@ m_ResolvedPackages:
     - 1.15.18
     - 1.17.0
     - 1.17.1
+    - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -110,6 +111,7 @@ m_ResolvedPackages:
     - 1.15.18
     - 1.17.0
     - 1.17.1
+    - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -213,7 +215,7 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.16
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -389,7 +391,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -579,12 +581,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.3.0
     nextVersion: 
-- packageId: com.unity.probuilder@5.0.4
+- packageId: com.unity.probuilder@5.0.6
   testable: 0
   isDirectDependency: 1
-  version: 5.0.4
+  version: 5.0.6
   source: 1
-  resolvedPath: C:\Users\pc\Desktop\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.probuilder@5.0.4
+  resolvedPath: C:\Users\pc\Desktop\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.probuilder@5.0.6
   assetPath: Packages/com.unity.probuilder
   name: com.unity.probuilder
   displayName: ProBuilder
@@ -648,10 +650,12 @@ m_ResolvedPackages:
     - 5.0.1
     - 5.0.3
     - 5.0.4
+    - 5.0.6
     compatible:
     - 5.0.3
     - 5.0.4
-    verified: 5.0.4
+    - 5.0.6
+    verified: 5.0.6
   dependencies:
   - name: com.unity.settings-manager
     version: 1.0.3
@@ -696,23 +700,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637798446010000000
+  datePublishedTicks: 637928847600000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.probuilder.git
-    revision: 22982e248cc358e0d09dddd839f6d84cf33a8cb6
+    revision: a2e0f7904211f195c1c7661cdbed49fdc4a4130d
     path: 
   unityLifecycle:
     version: 5.0.3
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.31
+- packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
-  version: 1.1.31
+  version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\pc\Desktop\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: C:\Users\pc\Desktop\TowerDefenseEbac\TowerDefense\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -760,15 +764,17 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
+    - 1.1.33
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.31
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -795,13 +801,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637804266210000000
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
+    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
     path: 
   unityLifecycle:
     version: 1.1.31
@@ -3309,7 +3315,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui

@@ -6,6 +6,11 @@ using UnityEngine.AI;
 
 public class Enemigo : EnemigoBase
 {
+    private void Awake()
+    {
+        vida = 40;
+        _dano = 10;
+    }
     public override void OnDestroy()
     {
         base.OnDestroy();

@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 4602391395345269021}
   m_Layer: 0
   m_Name: knight_d_pelegrini (1)
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1082,8 +1082,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b7c57d10c29f5f45914205d89f4cc80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetivo: {fileID: 0}
+  Objetivo: {fileID: 0}
   vida: 100
+  _dano: 5
+  recursosGanados: 200
+  referenciaAdminJuego: {fileID: 0}
+  referenciaSpawner: {fileID: 0}
   Anim: {fileID: 0}
 --- !u!1 &3703929991500001362
 GameObject:
