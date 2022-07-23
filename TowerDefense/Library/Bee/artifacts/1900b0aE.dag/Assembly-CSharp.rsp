@@ -367,6 +367,7 @@
 "Assets/_Scripts/Interfaces/IAtacante.cs"
 "Assets/_Scripts/Objetivo.cs"
 "Assets/_Scripts/SpawnerEnemigos.cs"
+"Assets/_Scripts/TorreAntena.cs"
 "Assets/_Scripts/TorreBase.cs"
 -langversion:9.0
 

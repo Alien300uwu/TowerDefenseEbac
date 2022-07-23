@@ -37,11 +37,11 @@ public class EnemigoBase : MonoBehaviour, IAtacante, IAtacable
 
     void Update()
     {
-        if(vida <= 0)
+        if (vida <= 0)
         {
             Anim.SetTrigger("OnDeath");
             GetComponent<NavMeshAgent>().SetDestination(transform.position);
-            Destroy(gameObject, 2);
+            Destroy(gameObject, 3);
         }
         
     }

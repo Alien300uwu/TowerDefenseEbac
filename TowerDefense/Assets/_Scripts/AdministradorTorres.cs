@@ -12,7 +12,7 @@ public class AdministradorTorres : MonoBehaviour
 
     public enum TorreSeleccionada
     {
-        Torre_1,Torre_2,Torre_3,Balista,Campamentos
+        Torre_1,Torre_2,Torre_3,Balista,Laser
     }
 
 
@@ -74,6 +74,8 @@ public class AdministradorTorres : MonoBehaviour
                 TorreSeleccionada.Torre_1 => 400,
                 TorreSeleccionada.Torre_2 => 600,
                 TorreSeleccionada.Torre_3 => 800,
+                TorreSeleccionada.Balista => 200,
+                TorreSeleccionada.Laser => 1000,
                 _ => 0
             };
         if(plataforma.transform.childCount == 0 && referenciaAdminJuego.recursos>=costo)
@@ -87,6 +89,7 @@ public class AdministradorTorres : MonoBehaviour
             posParaIntanciar.y += 0.5f;
             GameObject torreInstanciada = Instantiate<GameObject>(prefabsTorres[indiceTorre], posParaIntanciar, Quaternion.identity);
             torreInstanciada.transform.SetParent(plataforma.transform);
+            torresInstanciadas.Add(torreInstanciada);
         }
         
     }
