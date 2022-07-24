@@ -36,7 +36,7 @@ public class AdministradorTorres : MonoBehaviour
         referenciaSpawner.EnOleadaIniciada -= ActualizarObjetivo;
     }
 
-    private void ActualizarObjetivo()
+    public void ActualizarObjetivo()
     {
         if(referenciaSpawner.LaOleadaHaIniciado)
         {
@@ -75,7 +75,7 @@ public class AdministradorTorres : MonoBehaviour
                 TorreSeleccionada.Torre_2 => 600,
                 TorreSeleccionada.Torre_3 => 800,
                 TorreSeleccionada.Balista => 200,
-                TorreSeleccionada.Laser => 1000,
+                TorreSeleccionada.Laser => 800,
                 _ => 0
             };
         if(plataforma.transform.childCount == 0 && referenciaAdminJuego.recursos>=costo)
@@ -107,4 +107,5 @@ public class AdministradorTorres : MonoBehaviour
 
 
     }
+    
 }

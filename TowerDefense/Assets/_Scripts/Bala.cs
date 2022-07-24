@@ -9,6 +9,8 @@ public class Bala : MonoBehaviour, IAtacante
     public GameObject enemigo;
     public int _dano = 10;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,7 @@ public class Bala : MonoBehaviour, IAtacante
     {
         var paso = velocidad * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, destino, paso);
-        if(Vector3.Distance(transform.position, destino) < 0.01f)
+        if (Vector3.Distance(transform.position, destino) < 0.01f)
         {
             Destroy(gameObject);
         }

@@ -7,8 +7,8 @@ public class Boss : EnemigoBase
 
     private void Awake()
     {
-        vida = 80;
-        _dano = 40;
+        vida = 300;
+        _dano = 80;
     }
     public override void OnDestroy()
     {

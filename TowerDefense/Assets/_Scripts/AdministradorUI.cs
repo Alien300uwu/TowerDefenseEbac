@@ -97,7 +97,7 @@ public class AdministradorUI : MonoBehaviour
         Application.Quit();
     }
 
-    public void CargarMeuPrincipal()
+    public void CargarMenuPrincipal()
     {
         SceneManager.LoadScene(0);
     }

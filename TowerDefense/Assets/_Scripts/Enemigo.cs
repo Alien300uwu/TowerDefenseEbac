@@ -8,8 +8,8 @@ public class Enemigo : EnemigoBase
 {
     private void Awake()
     {
-        vida = 40;
-        _dano = 10;
+        vida = 100;
+        _dano = 20;
     }
     public override void OnDestroy()
     {

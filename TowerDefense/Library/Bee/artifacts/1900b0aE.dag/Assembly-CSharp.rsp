@@ -365,6 +365,7 @@
 "Assets/_Scripts/EnemigoBase.cs"
 "Assets/_Scripts/Interfaces/IAtacable.cs"
 "Assets/_Scripts/Interfaces/IAtacante.cs"
+"Assets/_Scripts/MenuInicio.cs"
 "Assets/_Scripts/Objetivo.cs"
 "Assets/_Scripts/SpawnerEnemigos.cs"
 "Assets/_Scripts/TorreAntena.cs"
